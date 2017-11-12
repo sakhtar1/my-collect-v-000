@@ -4,8 +4,8 @@ def my_collect(array)
   collection = []
 
   while i < array.length
-    i = i.split(" ").first
     collection << yield(array[i])
+    i = i.split(" ").first
     i += 1
   end
   collection
