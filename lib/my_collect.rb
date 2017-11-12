@@ -1,9 +1,10 @@
 def my_collect(array)
 
   i = 0
-  collection =[]
-  i.split(" ").first
+  collection = []
+  
   while i < array.length
+    i.split(" ").first
     collection << yield(array[i])
     i += 1
   end
