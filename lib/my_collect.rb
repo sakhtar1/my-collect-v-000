@@ -1,9 +1,8 @@
 def my_collect(array)
-  collection =[]
-
+  
   i = 0
+  collection =[]
   i.split(" ").first
-
   while i < array.length
     collection << yield(array[i])
     i += 1
